@@ -16,9 +16,9 @@ connectDB();
 
 app.use("/api/blogs", routes);
 
-// Sample route
+// Home route
 app.get("/", (req, res) => {
-  res.send("Blogs API Endpoint");
+  res.send("Blogs API Endpoint...");
 });
 
 app.listen(PORT, () => {
